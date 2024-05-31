@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import Logo1 from "../assets/remove-bg.png";
+import AdminImage from "../assets/Admin.png";
 import "react-toastify/dist/ReactToastify.css";
 import "./Login.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -69,15 +70,16 @@ const Login = () => {
 
   return (
     <div className="first">
+      <img src={AdminImage} alt="image" className="admin-image" />
       <ToastContainer />
       <div className="login-container">
-        <div className="image">
-          <img
-            src={Logo1}
-            alt="logo"
-          />
-        </div>
         <div className="right">
+          <div className="image">
+            <img
+                src={Logo1}
+                alt="logo"
+            />
+          </div>
           <div className="login-heading">
             <h1>Login to your account.</h1>
           </div>

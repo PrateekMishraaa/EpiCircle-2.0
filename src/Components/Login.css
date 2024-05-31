@@ -1,3 +1,11 @@
+.first {
+    display: flex;
+}
+
+.admin-image {
+  height: 650px;
+}
+
 .login-container {
   display: flex;
   align-items: center;
@@ -13,10 +21,10 @@
 
 .image img {
  height: 150px;
- position: absolute;
- bottom: 130px;
- left: 500px;
- top: px;
+ position: relative;
+ /*bottom: 130px;*/
+ left: 65px;
+ /*top: px;*/
 }
 
 .right {
