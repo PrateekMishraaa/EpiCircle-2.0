@@ -1,0 +1,146 @@
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  padding: 20px; /* Added padding for mobile devices */
+}
+
+.image {
+  position: relative;
+}
+
+.image img {
+ height: 150px;
+ position: absolute;
+ bottom: 130px;
+ left: 500px;
+ top: px;
+}
+
+.right {
+  position: relative;
+  left: 50%; /* Centering the content on mobile */
+  transform: translateX(-50%);
+  top: 40px;
+}
+
+.login-heading h1 {
+  font-size: 26px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center; /* Centering the heading text on mobile */
+}
+
+.seprate h2 {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  opacity: 0.5;
+  text-align: center; /* Centering the subheading text on mobile */
+}
+
+.login-field {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center; /* Centering the input fields on mobile */
+}
+
+.login-field input {
+  padding: 12px; /* Increased padding for height */
+  height: 20px; /* Increased height */
+  width: 100%; /* Full width on mobile */
+  max-width: 400px; /* Max width for larger screens */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s; /* Add transition for smoother effect */
+}
+
+.login-field input:hover {
+  border-color: #000000; /* Change border color on hover */
+}
+
+.login-error {
+  color: red;
+  margin-bottom: 15px;
+  text-align: center; /* Centering the error message on mobile */
+}
+
+.login-button {
+  padding: 10px 20px;
+  width: 100%; /* Full width on mobile */
+  max-width: 420px; /* Max width for larger screens */
+  background-color: #4caae4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: box-shadow 0.3s; /* Add transition for smoother effect */
+  display: block; /* Block display to ensure proper centering */
+  margin: 0 auto; /* Centering the button on mobile */
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow effect on hover */
+}
+
+@media (max-width: 768px) {
+  .login-container {
+      flex-direction: column; /* Stack elements vertically on mobile */
+      padding: 10px;
+  }
+
+  .image img {
+      height: 25px; /* Smaller image size on mobile */
+  }
+
+  .right {
+      left: 0;
+      transform: none;
+      top: 20px;
+      width: 100%; /* Full width on mobile */
+  }
+
+  .login-heading h1 {
+      font-size: 24px; /* Slightly smaller font size on mobile */
+  }
+
+  .login-field input {
+      width: calc(100% - 24px); /* Full width with padding adjustment on mobile */
+      max-width: none; /* Remove max-width constraint on mobile */
+  }
+
+  .login-button {
+      width: calc(100% - 20px); /* Full width with padding adjustment on mobile */
+      max-width: none; /* Remove max-width constraint on mobile */
+  }
+}
+
+  
+  .hidden-link {
+    display: none;
+  }
+  .container {
+    display: flex;
+  }
+  
+  .login-container {
+    flex: 1;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .login-container {
+    flex: 1;
+  }
+   
+ 
+
+  
+  
+  
+  
+  
